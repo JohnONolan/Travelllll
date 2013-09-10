@@ -1,0 +1,18 @@
+/* style for any user that's not admin */
+
+body.login {
+	min-height: 100%;
+}
+body.login #login {
+	padding-bottom: 100px;
+}
+#toplevel_page_tweet_queue,
+#toplevel_page_pty,
+#menu-posts-feedback,
+#wp-admin-bar-new-media,
+#wp-admin-bar-new-liveblog_entry {
+	display: none;
+}
+.default-password-nag {
+	display: none!important;
+}

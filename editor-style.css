@@ -1,0 +1,45 @@
+/* Editor / WYSIWYG styles */
+
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #444;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 22px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+blockquote {
+	font-style: italic;
+	margin-left: 25px;
+}
+#tinymce,
+#wp-fullscreen-container {
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 14px;
+	width: 602px;
+}
+.wp-caption {
+	background: none;
+	border: none;
+	font-size: 12px;
+	text-align: left;
+}

@@ -1,0 +1,11 @@
+/* Set up the fonts */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('LeagueGothic.eot');
+    src: url('LeagueGothic.eot?#iefix') format('embedded-opentype'),
+         url('LeagueGothic.woff') format('woff'),
+         url('LeagueGothic.otf') format('opentype'),
+         url('LeagueGothic_#LeagueGothicRegular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,94 @@
+/*-----------------------------------------------------------------------------------
+
+FILE INFORMATION
+
+Description: WooThemes shortcode generator CSS.
+Date Created: 2011-01-21.
+Author: Based on the work of the Shortcode Ninja plugin by VisualShortcodes.com.
+Integration and Addons: Matty.
+Since: 3.5.0
+Copyright 2010 (c) VisualShortcodes.com
+
+
+TABLE OF CONTENTS
+
+1. Layout
+2. Attributes Table
+3. Validation
+4. Column Control
+5. Form Elements
+-5.1 Colour Picker
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+  1. Layout
+-----------------------------------------------------------------------------------*/
+
+#woo-options-buttons { margin: -3px -15px 0; background: #EDEDED; padding: 12px 20px 8px; border-bottom: 1px solid #ddd; } 
+#woo-options {float: left; width: 380px; margin-right: 20px; position: relative; z-index: 2; }
+#woo-options.shortcode-related, #woo-options.shortcode-column, #woo-options.shortcode-tab  { width: 100%; }
+#woo-options h3, #woo-preview h3, #woo-options-error h3 { border-bottom: 1px solid #E7E7E7; font-size: 13px; margin: 10px 0; padding: 7px 0; }
+#woo-preview { width: 225px; position: relative; z-index: 2; }
+#woo-preloader { position: absolute; }
+.woo-loading { background: url( "../images/loading-bottom.gif") no-repeat scroll right center transparent; padding-right: 15px; }
+#woo-options.shortcode-contactform { width: 100%; display: block;  }
+#woo-preview.shortcode-contactform { width: 100%; margin-top: -20px; display: block; }
+#woo-preview.shortcode-contactform iframe { height: 530px!important; }
+
+/*-----------------------------------------------------------------------------------
+  2. Attributes Table
+-----------------------------------------------------------------------------------*/
+
+#woo-options-table { border: 0px solid #DFDFDF; width: 100%; margin-bottom: 8px; }
+#woo-options-table th { padding-top: 0.2em; }
+#woo-options.shortcode-column th, #woo-options.shortcode-tab th  { width: 20px; vertical-align: top; }
+#woo-options-table td { vertical-align: middle; padding: 0 5px 10px 0; }
+.woo-input-help { font-size: 11px; color: #999; font-style: italic; font-family: sans-serif; display: block; clear: both; }
+.woo-input-help p   { margin: 0; color: #888; font-size: 11px; }
+abbr.woo-required { color: #FF0000; }
+
+/*-----------------------------------------------------------------------------------
+  3. Validation
+-----------------------------------------------------------------------------------*/
+
+#woo-options-error p { margin: 0; }
+#woo-options-error h4 { margin: 1.33em 0 0.8em 0; }
+input.woo-required {}
+.woo-validating { background: url( "../images/loading-bottom.gif") no-repeat scroll right center transparent; padding-right: 18px; }
+.woo-validated { background: url( "../images/happy.png") no-repeat scroll right center transparent; padding-right: 15px; }
+.woo-validation-error { background: url( "../images/ico-alert.png") no-repeat scroll right center transparent; padding-right: 15px; }
+
+/*-----------------------------------------------------------------------------------
+  4. Column Control
+-----------------------------------------------------------------------------------*/
+
+div.column-button { border: 1px solid #333333; width: 100px; margin:  4px 0; text-align: center; }
+input.column-button[disabled], input.column-button[disabled]:hover { background-color: #fff !important; color: #aaa; border: 1px solid #eee; }
+input.column-button { float: left; clear: left; margin-top: 2px; border: 1px solid #777777; background-color: #EEEEEE !important; }
+.rounded5p { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+#woo-column-text { border: 1px solid #AAAAAA; font-size: 22px; font-family: Sans-serif; padding: 5px 40px 5px 5px; }
+
+/*-----------------------------------------------------------------------------------
+  5. Form Elements
+-----------------------------------------------------------------------------------*/
+
+#woo-options input[type=text], #woo-options select  { margin-bottom: 4px; border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC; border-style: solid; border-width: 1px; background-color: #FAFAFA; font-family: "Lucida Grande",Verdana,sans-serif;height: 28px;  width: 280px; color: #555555; font-size: 12px; }
+#woo-options.shortcode-related input[type=text]  { width: 560px; }
+#woo-options.shortcode-contactform label  {  width: 130px; }
+#woo-options.shortcode-column label  {}
+#woo-options.shortcode-contactform input[type=text]  { width: 483px; }
+#woo-options input[type=text]  {  padding: 5px; -moz-border-radius: 4px 4px 4px 4px; }
+#woo-options select  { cursor: pointer; opacity: 0; padding: 0; position: relative; z-index: 4; padding: 5px; }
+#woo-options-table label { width: 89px; text-align: right; padding: 6px 6px 0 0; font-weight: bold; font-size: 11px; line-height: 12px; color: #333333; display: block; }
+label.woo-required span.required {padding: 0 0 0 2px; margin-top: -4px; font-size: smaller; color: #FF0000; }
+#woo-options .select_wrapper  { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; font-size: 12px; background: #fafafa url(../images/select.png) no-repeat right center; border-color: #ccc #eee #eee #ccc; border-style: solid; border-width: 1px; float: left; height: 26px; width: 280px; margin: 0 0 4px; display: block; }
+#woo-options .select_wrapper span { height: 26px; line-height: 26px; padding-left: 6px; position: absolute; z-index: 2; }
+
+/*-----------------------------------------------------------------------------------
+  -5.1 Colour Picker
+-----------------------------------------------------------------------------------*/
+
+#woo-options .woo-marker-colourpicker-control .colorSelector { margin-top: 1px; }
+#woo-options .woo-marker-colourpicker-control input.input-colourpicker { float: right; width: 248px; }
+#woo-options .woo-marker-colourpicker-control br { clear: both; }

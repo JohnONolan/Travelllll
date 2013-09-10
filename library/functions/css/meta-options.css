@@ -1,0 +1,9 @@
+.woo-meta-radio-img-img   { width: 13%; }
+.ui-widget-content  { border: none!important; }
+#woothemes-settings-tabs  { margin: -5px -10px 0; padding: 5px 5px 0; background: #eee; border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; border-radius: 0!important; -moz-border-radius: 0!important; -webkit-border-radius: 0!important; }
+#woothemes-settings-tabs li  { display: block; float: left; margin: 0 10px -1px 0; padding: 0 0 1px; line-height: 30px; }
+#woothemes-settings-tabs li.ui-state-active  { border-bottom: none; padding-bottom: 2px; }
+#woothemes-settings-tabs li.ui-state-hover  { border-bottom: none; }
+#woothemes-settings-tabs li a  { padding: 6px 10px; font-weight: bold; }
+.ui-tabs-panel  { padding-top: 10px; }
+.ui-tabs-panel tr.last-row th, .ui-tabs-panel tr.last-row td  { border-bottom: none!important; }
